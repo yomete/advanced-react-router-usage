@@ -1,3 +1,9 @@
-.home p {
-    font-size: 30px;
+p {
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+h1 {
+    font-size: 25px;
+    margin-bottom: 50px;
 }
