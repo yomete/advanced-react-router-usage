@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
 import './Home.css'
-import Button from '../../components/NavButton/NavButton'
 
 class Home extends Component {
     render () {
         return (
             <div className="container home">
-                <p>A poem by Dylan Thomas</p>
-                <p>"Do not go gentle into that good night"</p>
-                <Button name="Read" link="/p/1"/>
+                <h1>Advanced React Router Concepts</h1>
+                <p><strong>Code Splitting</strong></p>
+                <p>One great feature of the web is that we don't have to make our visitors download the entire app before they can use it. You can think of code splitting as incrementally downloading the app. </p>
+                <p>Code splitting allows for dividing your code into smaller chunks in such a way that each chunk can be loaded on demand, in parallel, or conditionally.</p>
             </div>
         )
     }
