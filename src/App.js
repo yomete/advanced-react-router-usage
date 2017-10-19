@@ -1,15 +1,10 @@
-import React, { Component } from 'react';
-import './App.css';
-import Routes from './routes';
+import ReactDOM from 'react-dom'
+import React  from 'react'
+import {BrowserRouter} from 'react-router-dom'
+import { App } from './Components'
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <Routes/>
-      </div>
-    );
-  }
-}
-
-export default App;
+ReactDOM.render(
+  <BrowserRouter>
+    <App />
+   </BrowserRouter>
+  , document.getElementById('main'))

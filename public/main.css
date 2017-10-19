@@ -1,0 +1,23 @@
+html,body {
+    margin:0;
+    padding: 0;
+    position: relative;
+    font-family: Helvetica,SanSerif;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.4em;
+}
+.navbar {
+    margin-top: 40px;
+}
+.navbar a {
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+h1 {
+    font-weight: 700;
+    font-size: 30px;
+}
+p {
+    margin-top: 20px;
+}
