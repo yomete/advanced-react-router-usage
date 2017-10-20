@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Switch, Route, NavLink } from 'react-router-dom'
+// The exported routes array from the router-config.js file is imported here to be used for the routes below
 import { routes } from '../router-config'
 import { NotFound } from '../Components'
 
@@ -29,6 +30,7 @@ export default class App extends Component {
 
           <div className="container">
               <Switch>
+                  {/*The routes array is used here and is iterated through to build the different routes needed for the app*/}
                   {routes.map((route,index) => (
                       <Route key={index} path={route.path} component={route.component} exact={route.exact} />
                   ))}
