@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import Button from '../../components/NavButton/NavButton'
+import Button from '..//NavButton/NavButton'
 
 class Two extends Component {
     render () {
         return (
             <section>
-                <div className="poem-container">
+                <div className="poem-container inner">
                     <div>
                         <p>
                             Wild men who caught and sang the sun in flight,<br/>

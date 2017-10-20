@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import Button from '../../components/NavButton/NavButton'
+import Button from '..//NavButton/NavButton'
 
 class One extends Component {
     render () {
         return (
-            <div className="poem-container">
+            <div className="poem-container inner">
                 <div>
                     <p>
                         Do not go gentle into that good night,<br/>

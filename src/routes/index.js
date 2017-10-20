@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import {
     BrowserRouter as Router,
     Route,
-    Switch,
     Link
 } from 'react-router-dom'
 import { AnimatedSwitch, spring } from 'react-router-transition';
@@ -57,7 +56,7 @@ class Routes extends Component {
                         <nav className="navbar">
                             <div className="navbar-brand">
                                 <Link to="/">
-                                    <span className="navbar-item">DNGGITGN</span>
+                                    <span className="navbar-item">Home</span>
                                 </Link>
                             </div>
                         </nav>
@@ -74,12 +73,6 @@ class Routes extends Component {
                         <Route path="/p/2" component={Two} />
                         <Route path="*" component={NotFound} />
                     </AnimatedSwitch>
-                    {/*<Switch>*/}
-                        {/*<Route exact path="/" component={Home} />*/}
-                        {/*<Route path="/p/1" component={One} />*/}
-                        {/*<Route path="/p/2" component={Two} />*/}
-                        {/*<Route path="*" component={NotFound} />*/}
-                    {/*</Switch>*/}
                 </div>
             </Router>
         )

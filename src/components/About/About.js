@@ -4,7 +4,7 @@ import './About'
 class About extends Component {
     render () {
         return (
-            <div className="container">
+            <div className="container inner">
                 <p>about page</p>
             </div>
         )

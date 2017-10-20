@@ -9,6 +9,9 @@
 .navbar a {
   color: white;
 }
+.navbar-item {
+  color: white;
+}
 p {
   margin-bottom: 40px;
   font-size: 20px;
@@ -19,19 +22,10 @@ p {
   left: 50%;
   transform: translate(0%, 0%);
 }
-.fade-enter {
-  opacity: 0;
-  z-index: 1;
-}
-
-.fade-enter.fade-enter-active {
-  opacity: 1;
-  transition: opacity 250ms ease-in;
-}
 .route-wrapper {
   position: relative;
 }
 
-.route-wrapper > .poem-container {
+.route-wrapper > .inner {
   position: absolute;
 }
